@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loy Hotel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        /* Navbar Styling */
+        .navbar {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        
+        .container-fluid {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        /* Hero Image Section */
+        .hotel-image {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .hotel-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .hero-text h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .hero-text p {
+            font-size: 1.2rem;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 60px 0;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        section p {
+            font-size: 1.1rem;
+        }
+
+        .bg-light {
+            background-color: #f8f9fa !important;
+        }
+
+        /* Meet Our Team Card Styling */
+        .team-card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-card img {
+            border-radius: 10px 10px 0 0;
+            object-fit: cover;
+            width: 100%;
+            height: 250px;
+        }
+
+        .team-card h3 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #343a40;
+            color: white;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Styling */
+        @media (max-width: 768px) {
+            .hero-text h1 {
+                font-size: 2rem;
+            }
+
+            .hero-text p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Loy Hotel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="rooms.html">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="booking.html">Booking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="reviews.html">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Image Section -->
+    <section class="hotel-image">
+        <img src="img/WhatsApp Image 2024-08-03 at 20.14.07_b6c8c83b.jpg" alt="Loy Hotel">
+        <div class="hero-text">
+            <h1>Welcome to Loy Hotel</h1>
+            <p>Experience luxury and comfort in the heart of the city</p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-primary">About Us</h2>
+            <p class="text-center mb-4">Loy Hotel is a beacon of luxury in the city, offering world-class hospitality and an unforgettable experience for every guest.</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h3>Our History</h3>
+                    <p>Established in 1924, Loy Hotel has a rich history of catering to discerning travelers. Over the years, we've evolved into a modern sanctuary while retaining our classic charm.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to provide an unparalleled level of service, ensuring that every guest feels like royalty. From the moment you step into Loy Hotel, you're part of our family.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h3>Our Values</h3>
+                    <ul>
+                        <li>Excellence: We strive for perfection in everything we do.</li>
+                        <li>Integrity: We operate with transparency and respect.</li>
+                        <li>Innovation: We continuously improve and innovate to exceed our guests' expectations.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet Our Team Section -->
+    <section id="team" class="team py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 text-primary">Meet Our Team</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card team-card">
+                        <img src="img/employer 1.jpeg" class="card-img-top" alt="John Doe - General Manager">
+                        <div class="card-body text-center">
+                            <h3>John Doe - General Manager</h3>
+                            <p>With over 20 years of experience in the hospitality industry, John leads our team with passion and dedication.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card team-card">
+                        <img src="img/employer 2.jpeg" class="card-img-top" alt="Jane Smith - Head Chef">
+                        <div class="card-body text-center">
+                            <h3>Jane Smith - Head Chef</h3>
+                            <p>Jane brings culinary expertise and creativity to our kitchen, ensuring every meal is a masterpiece.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card team-card">
+                        <img src="img/employer three.jpeg" class="card-img-top" alt="Emily Johnson - Spa Director">
+                        <div class="card-body text-center">
+                            <h3>Emily Johnson - Spa Director</h3>
+                            <p>Emily oversees our luxurious spa, where guests can unwind and rejuvenate in a tranquil environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Loy Hotel. All Rights Reserved.</p>
+        <div>
+            <a href="#home">Home</a> |
+            <a href="#about">About Us</a> |
+            <a href="#contact">Contact</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9jYScW0L73xwZzVpibvHf4gP3R2KtThkV3csy2x0a5U5X6dH1eG" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-2u7UhdhWhuFJrzr3U4C2+4UbUkk2Xk+3CmQbDhZQ2c1s5Z6pHSkxzH5c3wCQ9fTp" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

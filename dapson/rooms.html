@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Loy Hotel</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <style>
+            .navbar {
+                position: fixed;
+                width: 100%;
+                top: 0;
+                z-index: 1000;
+            }
+            body {
+                padding-top: 56px;
+            }
+            .container-fluid {
+            padding-left: 0;
+            padding-right: 0;
+            }
+            .hotel-image img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+            #rooms .room img {
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+            #rooms .room h3 {
+                margin-top: 10px;
+            }
+            .special-offers .offer {
+                background-color: #f8f9fa;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 20px;
+            }
+            .container {
+                padding-top: 20px;
+            }
+
+           /* Footer Styling */
+           footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #343a40;
+            color: white;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Loy Hotel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="rooms.html">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="booking.html">Booking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="reviews.html">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+        <!-- Hotel Image Section -->
+        <section class="hotel-image">
+            <img src="images/hotel.jpg" alt="Loy Hotel">
+        </section>
+
+        <!-- Rooms Section -->
+        <section id="rooms" class="container">
+            <h2 class="text-center my-4">Our Rooms</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="room">
+                        <img src="img/room2.jpg.jpg" alt="Deluxe Room">
+                        <h3>Deluxe Room</h3>
+                        <p>Our Deluxe Rooms offer a serene ambiance with modern amenities and elegant decor, ensuring a comfortable stay.</p>
+                        <ul>
+                            <li>King-sized bed</li>
+                            <li>En-suite bathroom with a rain shower</li>
+                            <li>Flat-screen TV with satellite channels</li>
+                            <li>Complimentary Wi-Fi</li>
+                            <li>Mini-bar</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="room">
+                        <img src="img/room1.jpg.jpg" alt="Executive Suite">
+                        <h3>Executive Suite</h3>
+                        <p>Indulge in luxury with our Executive Suite, featuring a spacious living area, premium furnishings, and breathtaking views of the city skyline.</p>
+                        <ul>
+                            <li>King-sized bed</li>
+                            <li>Separate living area</li>
+                            <li>Luxurious bathroom with a soaking tub</li>
+                            <li>Flat-screen TV with satellite channels</li>
+                            <li>Complimentary Wi-Fi</li>
+                            <li>In-room dining service</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="room">
+                        <img src="img/room5.jpg.jpg" alt="Presidential Suite">
+                        <h3>Presidential Suite</h3>
+                        <p>Experience the ultimate in luxury with our Presidential Suite, offering an expansive layout, opulent furnishings, and personalized services.</p>
+                        <ul>
+                            <li>King-sized bed</li>
+                            <li>Private balcony with city views</li>
+                            <li>Jacuzzi</li>
+                            <li>Exclusive access to the Executive Lounge</li>
+                            <li>24-hour butler service</li>
+                            <li>Complimentary Wi-Fi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Offers Section -->
+        <section class="special-offers container my-4">
+            <h2 class="text-center">Special Offers</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="offer">
+                        <h3>Weekend Getaway Package</h3>
+                        <p>Enjoy a luxurious weekend stay with complimentary breakfast and late checkout.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="offer">
+                        <h3>Romantic Escape</h3>
+                        <p>Perfect for couples, this package includes a romantic dinner, spa treatment, and more.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="offer">
+                        <h3>Business Traveler's Package</h3>
+                        <p>Designed for business travelers, this package includes access to our executive lounge, high-speed Wi-Fi, and more.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Loy Hotel. All Rights Reserved.</p>
+        <div>
+            <a href="#home">Home</a> |
+            <a href="#about">About Us</a> |
+            <a href="#contact">Contact</a>
+        </div>
+    </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoVJ8Pz3Q5pNVzBlrb6lfxQFZ6IHtU93eGsmV/qtKfxkLMF" crossorigin="anonymous"></script>
+    </body>
+</html>
